@@ -1,7 +1,2 @@
-variable "auto_num1" {
-  default = 100
-}
-
-output "auto_num1" {
-  value = var.auto_num1
-}
+auto_num1 = 100
+env = "test"
