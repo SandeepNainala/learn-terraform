@@ -7,9 +7,9 @@ output "sample" {
 }
 
 variable "sample1" {
-  default = ["abc" , "1234"]
+  default = ["abc","1234"]
 }
 
 output "sample1" {
-  value = element(var.sample1)
+  value = element(var.sample1,0)
 }
