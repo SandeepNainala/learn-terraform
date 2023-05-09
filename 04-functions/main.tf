@@ -7,7 +7,7 @@ output "sample" {
 }
 
 variable "sample1" {
-  default = "abc1234"
+  default = ["abc" , "1234"]
 }
 
 output "sample1" {
