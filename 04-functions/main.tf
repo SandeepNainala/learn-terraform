@@ -17,7 +17,7 @@ output "sample1" {
 variable "sample2" {
   default = {
       abc = 100
-      123 = xyz
+      xyz = 200
   }
 }
 
