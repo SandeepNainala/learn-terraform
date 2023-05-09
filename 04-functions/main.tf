@@ -11,5 +11,5 @@ variable "sample1" {
 }
 
 output "sample1" {
-  value = element(var.sample)
+  value = element(var.sample1)
 }
